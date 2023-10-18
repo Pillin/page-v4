@@ -1,3 +1,4 @@
+import { Analytics } from "@vercel/analytics/react";
 import Book from "@/components/Book";
 import Welcome from "@/components/Pages/Welcome";
 import WhoAmI from "@/components/Pages/WhoAmI";
@@ -33,6 +34,7 @@ export default function Home() {
           <SideProject />
           <ThankYouPage />
         </Book>
+        <Analytics />
       </main>
     </>
   );
