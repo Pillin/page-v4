@@ -6,4 +6,6 @@ const Page = forwardRef(({ children }: { children: ReactNode }, ref: any) => (
   </section>
 ));
 
+Page.displayName = "Page";
+
 export default Page;

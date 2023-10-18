@@ -1,8 +1,4 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {
-  images: {
-    allowFutureImage: true,
-  },
-};
+const nextConfig = {};
 
 module.exports = nextConfig;

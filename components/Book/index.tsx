@@ -4,6 +4,7 @@ import HTMLFlipBook from "react-pageflip";
 
 export default function Book({ children }: { children: any }) {
   return (
+    // @ts-ignore
     <HTMLFlipBook
       width={320}
       height={500}
